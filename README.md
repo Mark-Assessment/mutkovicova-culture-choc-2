@@ -97,3 +97,5 @@ GitHub is used to store the code and repositories.
 I used Adobe Illustrator to create the wireframes and the custom graphics on the page as I was very familiar with Illustrator through work and therefore was able to create these quickly and in a way that was useful to me.
 
 
+#### opening port
+python3 -m http.server
