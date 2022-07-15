@@ -80,7 +80,7 @@ HTML5 and CSS3
 I used the latest stable version of Bootstrap 5 to assist with the layout of the site and certain elements, such as the header and footer.
 
 2. Google Fonts
-I utilised the Google fonts library for the Acme and Cairo fonts.
+I utilised the Google fonts library to import Acme and Cairo fonts.
 
 3. Font Awesome
 I used icons for the social media links in the footer.

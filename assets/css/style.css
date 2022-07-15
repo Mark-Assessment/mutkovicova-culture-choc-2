@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cairo&display=swap');
+
+/* -----------------------------------Colours */
+
+body {
+    color: #7b5b3d;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -----------------------------------Header */
+
+.logo {
+    text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
+    color: #dfe0df;
+    float: left;
+    font-size: 3em;
+    padding: 5px;
+    margin: 10px 30px;
+}
+
+header {
+    background-color: #7b5b3d;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    float: right;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Cairo', sans-serif;
+    color: #dfe0df;
+    padding: 5px;
+    margin: 30px 20px 20px 20px;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #dfe0df;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #dfe0df;
+    color:#f1962e;
+}
+
+.active {
+    border-bottom: 1px solid #dfe0df;
+}
+
+/* ------------------------------------Body */
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.hero-image {
+    background-color: #7b5b3d;
+}
+
+/* ------------------------------------Locations */
+
+.locations {
+    background-color: #402e32;
+}
+
+.locations h2 {
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #402e32;
+
+}
+
+.locations h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #402e32;
+    font-size: 1.5em;
+}
+
+.locations p {
+    color:#402e32;
+    text-align: center;
+
+}
+
+.box-locations {
+    background-color: #f1962e;
+    padding: 20px;
+    margin: 30px 10px;
+}
+
+/* ------------------------------------Footer */
+
+footer {
+    background-color: #dfe0df;
+    height: 80px;
+}
+
+footer h1 {
+    color:#7b5b3d;
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
+    float: left;
+    padding: 0;
+    margin: 20px 35px;
+
+}
+
+footer p {
+    margin: 20px;
+    padding: 0;
+    color: #7b5b3d;
+    font-family: 'Cairo', sans-serif;
+    float: right;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: #7b5b3d;
+}
+
+footer a:hover {
+    color: #f1962e;
+    border-bottom: 1px solid #f1962e;
+}
+
+.socials {
+    color: #dfe0df;
+    margin: 10px;
+}
