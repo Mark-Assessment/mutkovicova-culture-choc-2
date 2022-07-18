@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+.bio {
+    background-color: #dfe0df;
+}
+
 /* -----------------------------------Header */
 
 .logo {
@@ -52,7 +56,7 @@ nav a {
 }
 
 nav a:hover {
-    border-bottom: 1px solid #dfe0df;
+    border-bottom: 1px solid #f1962e;
     color:#f1962e;
 }
 
@@ -64,6 +68,12 @@ nav a:hover {
 
 body {
     font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.general {
+    padding-top: 20px;
 }
 
 .hero-image {
@@ -75,6 +85,7 @@ body {
 .locations {
     background-color: #402e32;
 }
+
 
 .locations h2 {
     font-family: 'Acme', sans-serif;
@@ -101,6 +112,12 @@ body {
     background-color: #f1962e;
     padding: 20px;
     margin: 30px 10px;
+}
+
+/* ------------------------------------Bio */
+
+.bio h4 {
+    float: left;
 }
 
 /* ------------------------------------Footer */
@@ -142,4 +159,10 @@ footer a:hover {
 .socials {
     color: #dfe0df;
     margin: 10px;
+}
+
+/* --------------------------------------Form */
+
+form {
+    margin: 10px
 }

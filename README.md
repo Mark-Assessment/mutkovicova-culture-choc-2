@@ -96,6 +96,17 @@ GitHub is used to store the code and repositories.
 7. Adobe Illustrator
 I used Adobe Illustrator to create the wireframes and the custom graphics on the page as I was very familiar with Illustrator through work and therefore was able to create these quickly and in a way that was useful to me.
 
+---
+
+## Code
+
+My basic structure was heavily influenced by the Love Running project and I utilised elements from this project on my Repl.it. These elements are: Nav bar styling, menu minimisation on mobile, icons for social media in footer.
+
+## Bugs
+
+For some reason, I was unable to make the margin, gap, or any other setting work between sections of text. In both my main body text and my 'bio' section, my text would not budge from below the previous section and even after using the Inspect tool in DevTools, I couldn't find the culprit (save for presets from Bootstrap, which I tried to override without luck). In favour of not spending hours debugging, I tried to simply add a br above each section div and this seemed to do the trick. It's not a clean method, but it's a method preferrable to constantly struggling.
+
+
 
 #### opening port
 python3 -m http.server
