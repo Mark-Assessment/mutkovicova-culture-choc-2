@@ -10,10 +10,6 @@ a {
     text-decoration: none;
 }
 
-.bio {
-    background-color: #dfe0df;
-}
-
 /* -----------------------------------Header */
 
 .logo {
@@ -86,6 +82,12 @@ body {
     background-color: #402e32;
 }
 
+.locations h4 {
+    font-family: 'Acme', sans-serif;
+    color: #dfe0df;
+    text-align: center;
+    margin-top: 10px;
+}
 
 .locations h2 {
     font-family: 'Acme', sans-serif;
@@ -117,7 +119,7 @@ body {
 /* ------------------------------------Bio */
 
 .bio h4 {
-    float: left;
+    text-align: left;
 }
 
 /* ------------------------------------Footer */

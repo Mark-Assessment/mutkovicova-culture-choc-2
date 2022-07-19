@@ -59,7 +59,9 @@ The imagery used is incredibly important. This site needs to represent both the 
 
 ## Wireframes
 
-- Links go here!
+- [Desktop](assets/images/wireframes/Culture%20Choc%20desktop.png)
+- [Tablet](assets/images/wireframes/Culture%20Choc%20mock%20tablet.png)
+- [Mobile](assets/images/wireframes/Culture%20Choc%20mock%20mobile.png)
 
 ---
 # Features
