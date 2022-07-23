@@ -24,7 +24,7 @@ a {
 
 header {
     background-color: #7b5b3d;
-    height: 80px;
+    height: 100px;
     margin: 0;
     padding: 0;
 }
@@ -76,6 +76,11 @@ body {
     background-color: #7b5b3d;
 }
 
+i {
+    font-size: 25px;
+    padding: 10px 10px 10px 0;
+}
+
 /* ------------------------------------Locations */
 
 .locations {
@@ -87,6 +92,7 @@ body {
     color: #dfe0df;
     text-align: center;
     margin-top: 10px;
+    padding-top: 20px;
 }
 
 .locations h2 {
@@ -141,7 +147,7 @@ footer h1 {
 }
 
 footer p {
-    margin: 20px;
+    margin: 30px 20px;
     padding: 0;
     color: #7b5b3d;
     font-family: 'Cairo', sans-serif;
@@ -165,6 +171,14 @@ footer a:hover {
 
 /* --------------------------------------Form */
 
-form {
-    margin: 10px
+input {
+    display: block;
+}
+
+form input#submit {
+    background-color: #7b5b3d;
+    color: #dfe0df;
+    border-radius: 60px;
+    padding: 5px 20px;
+    margin: 10px 0 20px 0;
 }
