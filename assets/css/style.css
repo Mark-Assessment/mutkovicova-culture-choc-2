@@ -73,7 +73,30 @@ body {
 }
 
 .hero-image {
-    background-color: #7b5b3d;
+    width: 100%;
+    background-image: url("../images/chocolate-image.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 600px;
+}
+
+#hero-overlay {
+    position: absolute;
+    background-color: rgba(123, 91, 61, 0.7);
+    left: 150px;
+    bottom: 350px;
+    height: 400px;
+    width: 75%;
+
+}
+
+#hero-overlay h1 {
+    font-family: 'Acme', sans-serif;
+    color: #dfe0df;
+    text-align: center;
+    margin-top: 130px;
+    padding: 0 70px;
+    font-size: 4rem;
 }
 
 i {
@@ -128,11 +151,17 @@ i {
     text-align: left;
 }
 
+.bio img {
+    height: 175px;
+    width: auto;
+    margin-left: 50px;
+}
+
 /* ------------------------------------Footer */
 
 footer {
     background-color: #dfe0df;
-    height: 80px;
+    height: 100px;
 }
 
 footer h1 {
@@ -142,17 +171,8 @@ footer h1 {
     font-family: 'Acme', sans-serif;
     float: left;
     padding: 0;
-    margin: 20px 35px;
+    margin: 30px 35px;
 
-}
-
-footer p {
-    margin: 30px 20px;
-    padding: 0;
-    color: #7b5b3d;
-    font-family: 'Cairo', sans-serif;
-    float: right;
-    text-transform: uppercase;
 }
 
 footer a {
@@ -164,9 +184,76 @@ footer a:hover {
     border-bottom: 1px solid #f1962e;
 }
 
+footer li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+
+    padding-bottom: 20px;
+    color: #7b5b3d;
+    font-family: 'Cairo', sans-serif;
+    float: right;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 .socials {
     color: #dfe0df;
     margin: 10px;
+}
+
+.socials i {
+    padding: 0;
+    margin: 0;
+}
+
+/* --------------------------------------Menu */
+
+.menu {
+    background-color: #402e32;
+}
+
+.menu h4 {
+    font-family: 'Acme', sans-serif;
+    color: #dfe0df;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.menu h2 {
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #402e32;
+
+}
+
+.menu h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #402e32;
+    font-size: 1.5em;
+}
+
+.menu p {
+    color:#402e32;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 5px;
+
+}
+
+.menu img {
+    float: left;
+    height: 70px;
+    margin: 10px 30px;
+}
+
+.box-menu {
+    background-color: #f1962e;
+    padding: 20px;
+    margin: 20px 10px;
 }
 
 /* --------------------------------------Form */
