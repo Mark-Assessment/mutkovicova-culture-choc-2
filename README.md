@@ -104,7 +104,10 @@ I used Adobe Illustrator to create the wireframes and the custom graphics on the
 
 My basic structure was heavily influenced by the Love Running project and I utilised elements from this project on my Repl.it. These elements are: Nav bar styling, menu minimisation on mobile, icons for social media in footer.
 
+## Bugs
 
+1. Private hire page doesn't adapt responsive menu styling despite not having anything different.
+2. Footer loses background color when responsive settings kick in.
 
 #### opening port
 python3 -m http.server
