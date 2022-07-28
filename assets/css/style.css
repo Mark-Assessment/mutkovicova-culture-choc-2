@@ -156,6 +156,13 @@ i {
     margin: 30px 10px;
 }
 
+
+.locations-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+
 /* ------------------------------------Bio */
 
 .bio h4 {
@@ -170,6 +177,11 @@ i {
 
 .bio {
     text-align: justify;
+}
+
+.bio-section {
+    display: flex;
+    flex-direction: column;
 }
 
 /* ------------------------------------Footer */
@@ -331,15 +343,25 @@ nav {
     margin-top: 120px;
 }
 
+.locations-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-section {
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
     height: auto;
+    width: 100%;
 }
 
 .socials {
     margin: 10px;
     float: left;
 }
-
 
 
 }
