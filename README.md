@@ -21,9 +21,10 @@
 8. [Bugs](#bugs)
 9. [Testing](#testing)
     1. [Code validation](#code-validation)
-10. [Deploy](#deploy)
+10. [Deployment](#deployment)
 11. [Credit](#credit)
 12. [Feedback](#feedback)
+13. [Acknowledgements](#acknowledgments)
 ---
 
 ### Purpose of the project
@@ -98,7 +99,7 @@ The imagery used is incredibly important. This site needs to represent both the 
 
 Responsive for all sites.
 
-Interactive elements with enquiry form and video testimonial.  
+Interactive elements with enquiry form.  
 
 ---
 # Technologies used
@@ -117,22 +118,23 @@ I utilised the Google fonts library to import Acme and Cairo fonts.
 3. Font Awesome
 I used icons for the social media links in the footer.
 
-4. Hover.css (maybe)
-
-5. GitPod
+4. GitPod
 Used to create the code and sync to GitHub to push and commit.
 
-6. GitHub
+5. GitHub
 GitHub is used to store the code and repositories.
 
-7. Adobe Illustrator
+6. Adobe Illustrator
 I used Adobe Illustrator to create the wireframes and the custom graphics on the page as I was very familiar with Illustrator through work and therefore was able to create these quickly and in a way that was useful to me.
+
+7. Am I responsive?
+This website was used to generate the responsive look image at the top of the README.
 
 ---
 
 ## Code
 
-My basic structure was heavily influenced by the Love Running project and I utilised elements from this project on my Repl.it. These elements are: Nav bar styling, menu minimisation on mobile, icons for social media in footer.
+My basic structure was heavily influenced by the Love Running project and I utilised elements from this project on my Repl.it. These elements are: Nav bar styling, hero image overlay at the top of the Index page and icons for social media in footer.
 
 ## Bugs
 
@@ -153,9 +155,20 @@ CSS tests revealed no errors, however did warn that import links (for my Google 
 
 ---
 
-## Deploy
+## Deployment
+
+This page was deployed using GitHub pages.
+
+To deploy:
+
 
 ## Credit
+
+As mentioned previously, I utilised elements from the Love Running project earlier on in the course.
+
+I also frequently consulted W3 schools and Stack Overflow to better understand if elements weren't working well or how I intended them to. This helped me to better understand the little features.
+
+Finally, the Bootstrap library was absolutely instrumental in understanding this complex piece of kit that is so frequently used.
 
 ---
 
@@ -163,6 +176,10 @@ CSS tests revealed no errors, however did warn that import links (for my Google 
 
 Koko, mentor - Commit history is lacking as ommits should be made much more frequently. I have completely taken this feedback on board, and feel a bit foolish for forgetting this. I applied this to my final small changes before submitting to demonstrate that I recognise this. 
 
+---
 
-#### opening port
-python3 -m http.server
+## Acknowledgments
+
+Koko, my mentor - thank you every so much for all the time you spent with me to make sure I got this right. Truly would not be the project it is without you, and I am so grateful for your time. And also for the fun we had!
+Alex, my husband - without your support, I would never have had any time to do this project and the course, as I would've had to wrangle my 1.5 year old... that was not on the cards.
+Everyone who has ever written anything that simplified how code is used - my eternal gratitude for making this field of work feel accessible and less scary.
