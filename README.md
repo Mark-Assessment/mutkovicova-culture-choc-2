@@ -1,10 +1,34 @@
 # Welcome to the Culture Choc project.
 
+## Table of contents
+
+1. [Purpose of project](#purpose-of-the-project)
+2. [User experience](#user-experience)
+    1. [Users](#users)
+    2. [User stories](#user-stories)
+3. [Design](#design)
+    1. [Colours](#colours)
+    2. [Typography](#typography)
+    3. [Imagery](#imagery)
+4. [Wireframes](#wireframes)
+5. [Features](#features)
+6. [Technologies used](#technologies-used)
+    1. [Languages used](#languages-used)
+    2. [Frameworks, libraries and programmes](#frameworks-libraries-and-programmes)
+7. [Code](#code)
+8. [Bugs](#bugs)
+9. [Deploy]
+10. [Credit]
+11. [Feedback](#feedback)
+---
+
 ### Purpose of the project
 
 To create an information site for a new start-up food truck business that sells hot chocolates from around the world.
 
 ---
+
+
 # User experience
 
 ## Users
@@ -57,6 +81,8 @@ Both of these will default to sans-serif if unavailable.
 
 The imagery used is incredibly important. This site needs to represent both the class of the hot chocolate world while making it feel very approachable and calm. 
 
+---
+
 ## Wireframes
 
 - [Desktop](assets/images/wireframes/Culture%20Choc%20desktop.png)
@@ -108,6 +134,24 @@ My basic structure was heavily influenced by the Love Running project and I util
 
 1. Private hire page doesn't adapt responsive menu styling despite not having anything different.
 2. Footer loses background color when responsive settings kick in.
+
+---
+
+## Testing
+
+
+---
+
+## Deploy
+
+## Credit
+
+---
+
+## Feedback
+
+Koko, mentor - Commit history is lacking as ommits should be made much more frequently. I have completely taken this feedback on board, and feel a bit foolish for forgetting this. I applied this to my final small changes before submitting to demonstrate that I recognise this. 
+
 
 #### opening port
 python3 -m http.server
