@@ -331,10 +331,10 @@ nav {
     height: 320px;
 }
 
-#hero-overlay h1 {
+#hero-overlay h2 {
     font-size: 3em;
     padding: 0 30px;
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .general-text {
@@ -347,6 +347,14 @@ nav {
 }
 
 .general-text p {
+    padding: 10px;
+}
+
+.general p {
+    padding: 10px;
+}
+
+.general h4 {
     padding: 10px;
 }
 
@@ -367,7 +375,7 @@ nav {
 }
 
 footer {
-    height: 165px;
+    height: 210px;
     width: 100%;
 }
 
