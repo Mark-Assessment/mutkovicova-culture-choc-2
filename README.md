@@ -21,6 +21,8 @@
 8. [Bugs](#bugs)
 9. [Testing](#testing)
     1. [Code validation](#code-validation)
+    2. [Manual testing](#manual-testing)
+    3. [User stories testing](#user-stories-testing)
 10. [Deployment](#deployment)
 11. [Credit](#credit)
 12. [Feedback](#feedback)
@@ -86,6 +88,8 @@ Both of these will default to sans-serif if unavailable.
 
 The imagery used is incredibly important. This site needs to represent both the class of the hot chocolate world while making it feel very approachable and calm. 
 
+The hero image was downloaded from [Pexels](https://www.pexels.com/photo/coffee-dark-candy-chocolate-65882/) and is under Free to use for commercial or personal use purposes. The remainings imagery was all sources by the author of the page themselves and can be used for this project indefinitely.
+
 ---
 
 ## Wireframes
@@ -138,8 +142,15 @@ My basic structure was heavily influenced by the Love Running project and I util
 
 ## Bugs
 
-1. Private hire page doesn't adapt responsive menu styling despite not having anything different.
-2. Footer loses background color when responsive settings kick in.
+1. Footer loses background color when responsive settings kick in.
+    1. The footer did not have a set height, instead relying on Auto. This caused it to not have a size as such to apply settings to. This was fixed by adding heights, both for regular view and mobile view. Proper height was determined using DevTools.
+2. Footer isn't at the bottom on form submission page.
+    1. This was hacked together by applying a class to the footer on the form submission page in particular and adding a position absolute value to it. This styling wasn't applied to the entire page as it interfered with the layout of the pages with more content. 
+3. Locations and menu items collapse haphazardly in mobile view.
+    1. Changing the styling of these elements using a custom class specifically for responsive view (@media max-width 767.98px) so that the flex-direction was changed to column fixed this issue whereby the individual boxes stack on top of one another.
+4. Header as fixed at top of page caused elements to overlap.
+    1. Embarrassed it took me this long to figure out, but just had to add a margin to the top of the following element and then amend this margin for responsive view. The solution came to me when I was using DevTools and experimenting.
+
 
 ---
 
@@ -152,6 +163,43 @@ All code was run through W3 validators for [HTML](https://validator.w3.org/nu/) 
 HTML tests revealed issues with my use of alt/aria-label tags (which I now realise was a misunderstanding of their use in my knowledge) as well as use of span instead of div in header and footer stylings. My index page hero overlay was also using styling of H1 elements, where it should've used another as it was not the top level heading. Finally, a stray section was discovered in my hire page.
 
 CSS tests revealed no errors, however did warn that import links (for my Google fonts) couldn't be validated.
+
+### Manual testing
+
+This page was frequently tested through Google DevTools on the browser, using the Inspect tool. This was used to test changes, apply small incremental fixes, or even experiment with options using the visual feedback as testing. 
+Through this manual testing I discovered that the page started to degrade in performance only below a width of 767.98px, therefore I chose not to create any custom styling for sizes above that. 
+
+### User stories testing
+
+1. New customers
+- I found this business via google or social media and want to learn more about what it is  
+The landing page for the website extensively describes the purpose of the business, what other information can be found and also a profile of the founder.
+
+- I want to know where I can experience this business  
+The landing and private hire pages include a locations section which outlines which markets this stall will attend. The footer also includes links to social media pages.
+
+- I want to build an emotional connection with the founder of this business  
+The landing and private hire pages include a short profile of the founder.
+
+2. Existing customers
+- I am standing in front of the stall and want to know more about the menu items  
+The menu page can be linked to directly and has a breakdown of each of the menu items on offer.
+
+- I saw this stall at a previous market and want to know which items they will be serving at the next one  
+The landing page includes a panel of future market stall locations as well as social media links for further information.
+
+- I want to know where I can find this stall next time  
+The landing page includes a breakdown of future locations, which can be expanded upon if further markets are available. There are also links to social media which can be used to contact the operator directly.
+
+3. Corporate/events professionals
+- I want to book a stall for my business event  
+The private hire page hosts an enquiry form which can be used to contact the owner.
+
+- I need to make sure it doesn't completely flop  
+The private hire page includes location information so the potential customer can visit the stall and see it in action.
+
+- I want to check if they can fulfil my specific requirements  
+The page hosts an enquiry form which can be used to ask specific questions.
 
 ---
 
