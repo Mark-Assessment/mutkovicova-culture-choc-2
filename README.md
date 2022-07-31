@@ -19,9 +19,11 @@
     2. [Frameworks, libraries and programmes](#frameworks-libraries-and-programmes)
 7. [Code](#code)
 8. [Bugs](#bugs)
-9. [Deploy](#deploy)
-10. [Credit](#credit)
-11. [Feedback](#feedback)
+9. [Testing](#testing)
+    1. [Code validation](#code-validation)
+10. [Deploy](#deploy)
+11. [Credit](#credit)
+12. [Feedback](#feedback)
 ---
 
 ### Purpose of the project
@@ -141,6 +143,13 @@ My basic structure was heavily influenced by the Love Running project and I util
 
 ## Testing
 
+### Code validation
+
+All code was run through W3 validators for [HTML](https://validator.w3.org/nu/) and [CSS](https://jigsaw.w3.org/css-validator/validator).
+
+HTML tests revealed issues with my use of alt/aria-label tags (which I now realise was a misunderstanding of their use in my knowledge) as well as use of span instead of div in header and footer stylings. My index page hero overlay was also using styling of H1 elements, where it should've used another as it was not the top level heading. Finally, a stray section was discovered in my hire page.
+
+CSS tests revealed no errors, however did warn that import links (for my Google fonts) couldn't be validated.
 
 ---
 
