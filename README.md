@@ -160,6 +160,13 @@ CSS tests revealed no errors, however did warn that import links (for my Google 
 This page was deployed using GitHub pages.
 
 To deploy:
+1. Open [GitHub](https://github.com/)
+2. Navigate to the repository for [Culture Choc](https://github.com/mutkovicova/culture-choc)
+3. Click on Settings
+4. Navigate to Pages, in the left hand side panel
+5. Select 'Deploy from a branch' under Source
+6. Select 'main' under Branch
+7. Click the 'Save' button on the right hand side of the Branch menu.
 
 
 ## Credit
