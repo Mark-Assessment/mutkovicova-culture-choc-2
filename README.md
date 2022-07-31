@@ -1,4 +1,6 @@
-# Welcome to the Culture Choc project.
+# Culture Choc 
+
+![Responsive Screenshot](assets/documentation/responsive-image.png)
 
 ## Table of contents
 
@@ -17,8 +19,8 @@
     2. [Frameworks, libraries and programmes](#frameworks-libraries-and-programmes)
 7. [Code](#code)
 8. [Bugs](#bugs)
-9. [Deploy]
-10. [Credit]
+9. [Deploy](#deploy)
+10. [Credit](#credit)
 11. [Feedback](#feedback)
 ---
 
