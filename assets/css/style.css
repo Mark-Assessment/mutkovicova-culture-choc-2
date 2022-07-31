@@ -343,6 +343,10 @@ nav {
     margin-top: 120px;
 }
 
+.general-text h4 {
+    font-size: 2em;
+}
+
 .locations-panel {
     display: flex;
     flex-direction: column;
