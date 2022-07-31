@@ -14,6 +14,11 @@
     3. [Imagery](#imagery)
 4. [Wireframes](#wireframes)
 5. [Features](#features)
+    1. [Home page](#home-page)
+    2. [Menu page](#menu-page)
+    3. [Private hire page](#private-hire-page)
+    4. [Form submission page](#form-submission-page)
+    5. [Future development / regrets](#future-development--regrets)
 6. [Technologies used](#technologies-used)
     1. [Languages used](#languages-used)
     2. [Frameworks, libraries and programmes](#frameworks-libraries-and-programmes)
@@ -101,9 +106,32 @@ The hero image was downloaded from [Pexels](https://www.pexels.com/photo/coffee-
 ---
 # Features
 
-Responsive for all sites.
+Each page features identical navigation features to have consistency of design and user experience, and therefore allow easier navigation across the site. These are:
+- Header
+The header includes a logo (which is made with text for now) and a navigation bar. The navigation bar features simple links that highlight and underline when hovered for ease of use.
+- Footer
+The footer once again repeats the logo in the opposite colourway, and features links to other pages that may be useful for that user once they navigate to the bottom of each page. These include Menu links, Private hire link and social media links. 
+All social media links are non-functioning right now, however the icons serve as placeholders for future links, should the business set up social media.
 
-Interactive elements with enquiry form.  
+### Home page
+The home page features 5 elements in total.
+
+1. Header
+As described in static elements above.
+
+2. Hero image and overlay
+This element is designed to draw the customer in and give them a feeling of luxury for this stall. It features a bold image of chocolate with an overlay of large heading that creates a nice focal point.
+
+### Menu page
+
+
+### Private hire page
+
+
+### Form submission page
+
+
+### Future development / regrets
 
 ---
 # Technologies used
