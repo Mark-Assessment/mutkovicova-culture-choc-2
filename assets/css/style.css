@@ -157,11 +157,6 @@ i {
 }
 
 
-.locations-panel {
-    display: flex;
-    flex-direction: column;
-}
-
 
 /* ------------------------------------Bio */
 
@@ -179,16 +174,14 @@ i {
     text-align: justify;
 }
 
-.bio-section {
-    display: flex;
-    flex-direction: column;
-}
-
 /* ------------------------------------Footer */
 
 footer {
     background-color: #dfe0df;
     height: 100px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0;
 }
 
 footer h1 {
@@ -307,6 +300,11 @@ form input#submit {
     line-height: 70px;
 }
 
+.submit-footer {
+    position: absolute;
+    bottom: 0;
+}
+
 /* ---------------------------------------Media queries */
 
 @media (max-width: 767.98px) {
@@ -340,16 +338,22 @@ nav {
 }
 
 .general-text {
-    margin-top: 120px;
+    margin-top: 130px;
 }
 
 .general-text h4 {
     font-size: 2em;
+    padding: 10px;
+}
+
+.general-text p {
+    padding: 10px;
 }
 
 .locations-panel {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .bio-section {
@@ -357,8 +361,13 @@ nav {
     flex-direction: column;
 }
 
+.menu-panel {
+    display: flex;
+    flex-direction: column;
+}
+
 footer {
-    height: auto;
+    height: 165px;
     width: 100%;
 }
 
@@ -367,5 +376,8 @@ footer {
     float: left;
 }
 
+.enquiry-form {
+    margin-left: 10px;
+}
 
 }
