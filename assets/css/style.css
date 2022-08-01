@@ -180,8 +180,7 @@ footer {
     background-color: #dfe0df;
     height: 100px;
     width: 100%;
-    position: relative;
-    margin-bottom: 0;
+
 }
 
 footer h1 {
@@ -220,6 +219,7 @@ footer li {
 .socials {
     color: #dfe0df;
     margin: 10px;
+    padding-top: 30px;
 }
 
 .socials i {
