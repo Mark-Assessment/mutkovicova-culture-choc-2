@@ -416,6 +416,7 @@ footer {
 .socials {
     margin: 10px;
     float: left;
+    padding-top: 0;
 }
 
 .enquiry-form {
@@ -424,6 +425,15 @@ footer {
 
 textarea {
     width: 100%;
+}
+
+.submit-form {
+    line-height: 30px;
+}
+
+.submit-form h1, h2 {
+    line-height: 45px;
+    padding-top: 30px;
 }
 
 }
