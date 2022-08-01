@@ -282,6 +282,16 @@ input {
     display: block;
 }
 
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+textarea {
+    display: block;
+}
+
 form input#submit {
     background-color: #7b5b3d;
     color: #dfe0df;
@@ -410,6 +420,10 @@ footer {
 
 .enquiry-form {
     margin-left: 10px;
+}
+
+textarea {
+    width: 100%;
 }
 
 }
