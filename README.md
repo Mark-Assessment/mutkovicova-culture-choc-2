@@ -89,10 +89,10 @@ Arguably, this audience needs the least depth of information. While they will wa
 
 This website uses a 4 colour scheme, created based on the fundamental chocolate brown colour with pops of brightness so it can have stand out elements.
 
-Basic brown - #7B5B3D
-Dark brown - #402E32
-Light gray - #DFE0DF
-Mustard yellow - #F1962E
+Basic brown - #7B5B3D  
+Dark brown - #402E32  
+Light gray - #DFE0DF 
+Mustard yellow - #F1962E   
 
 ### Typography
 
@@ -116,10 +116,12 @@ The hero image was downloaded from [Pexels](https://www.pexels.com/photo/coffee-
 ---
 # Features
 
-Each page features identical navigation features to have consistency of design and user experience, and therefore allow easier navigation across the site. These are:
-- Header
+Each page features identical navigation features to have consistency of design and user experience, and therefore allow easier navigation across the site.   These are:
+
+- Header  
 The header includes a logo (which is made with text for now) and a navigation bar. The navigation bar features simple links that highlight and underline when hovered for ease of use.
-- Footer
+
+- Footer  
 The footer once again repeats the logo in the opposite colourway, and features links to other pages that may be useful for that user once they navigate to the bottom of each page. These include Menu links, Private hire link and social media links. 
 All social media links are NOT functioning right now, however the icons serve as placeholders for future links, should the business set up social media.
 
